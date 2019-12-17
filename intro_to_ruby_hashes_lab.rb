@@ -34,10 +34,8 @@ end
 def update_counting_hash(hash, key)
  hash = {}
  new_key = key
- #new_val = "val"
- #hash[new_key] = new_val
- if key == hash[key]
-   hash[key] += 1 
- end 
+ new_val += 1 
+ hash[new_key] = new_val
+ 
  
  end
