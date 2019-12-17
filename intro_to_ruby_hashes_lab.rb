@@ -32,8 +32,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
- #hash = {}
- #new_key = "key"
+ hash = {}
+ new_key = key
  #new_val = "val"
  #hash[new_key] = new_val
  if key == hash[key]
